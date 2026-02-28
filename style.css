@@ -44,62 +44,36 @@ nav a:hover {
     background: linear-gradient(135deg, #1e3a8a, #7c3aed);
 }
 
-/* Left Side */
-.hero-left {
+/* Left Text */
+.hero-text {
     width: 50%;
+    color: white;
 }
 
-.hero-left h1 {
-    font-size: 55px;
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
     margin-bottom: 20px;
 }
 
-.hero-left span {
-    color: #facc15;
-}
-
-.hero-left h2 {
-    margin-bottom: 15px;
-    font-weight: normal;
-}
-
-.hero-left p {
-    margin-bottom: 25px;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-/* Button */
-.btn {
-    padding: 14px 30px;
-    background: white;
-    color: black;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #facc15;
-}
-
-/* Right Side */
-.hero-right {
+/* Right Image */
+.hero-image {
     width: 40%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
 .profile-img {
-    width: 320px;
-    height: 380px;
-    object-fit: cover;
+    width: 300px;       /* Control size */
+    height: 350px;      /* Fixed height */
+    object-fit: cover;  /* Crop properly */
     border-radius: 20px;
     border: 4px solid white;
     box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
-
 /* SECTIONS */
 .section {
     padding: 80px;
