@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 60px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+section {
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #111827;
+}
