@@ -1,80 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Navaneeth | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Navaneeth | Developer Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Navaneeth</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
+<div class="bg-animation"></div>
 
-    <!-- Hero Section -->
+<!-- NAVBAR -->
 
-    
-    <section id="home" class="hero">
-        <div class="hero-text">
-    <h1>Hi, I'm <span class="highlight">Navaneeth</span></h1>
-    <h2>Aspiring Software & SAP Developer</h2>
-    <p>
-        Passionate about building scalable solutions using 
-        Java, SAP & Cloud Technologies.
-    </p>
-    <a href="#projects" class="btn">View My Projects</a>
+<nav>
+
+<div class="logo">Navaneeth</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span class="highlight">Navaneeth</span></h1>
+
+<h2 class="typing"></h2>
+
+<p class="hero-desc">
+Passionate about building scalable applications using Java,
+React.js and modern Web Development technologies.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+
 </div>
 
-    
+<img src="profile.jpg" class="profile">
 
-    <div class="hero-right">
-    <img src="./profile.jpg" alt="Navaneeth Profile" class="profile-img">
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java</div>
+<div class="skill">React.js</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">SQL</div>
+
 </div>
 
 </section>
-    <!-- Skills -->
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill">Java</div>
-            <div class="skill">SAP ABAP</div>
-            <div class="skill">HTML & CSS</div>
-            <div class="skill">SQL</div>
-            <div class="skill">Git & GitHub</div>
-            <div class="skill">Google Cloud</div>
-        </div>
-    </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section dark">
-        <h2>Projects</h2>
+<!-- PROJECTS -->
 
-        <div class="project-card">
-            <h3>Student Management System</h3>
-            <p>Java OOP based console application with CRUD operations.</p>
-        </div>
+<section id="projects" class="section">
 
-        <div class="project-card">
-            <h3>SAP ABAP Student Project</h3>
-            <p>Developed custom tables and OOP classes in ABAP Cloud.</p>
-        </div>
+<h2>Projects</h2>
 
-        <div class="project-card">
-            <h3>Cloud-Based Alert System</h3>
-            <p>AWS S3, Lambda & SNS integration project.</p>
-        </div>
+<div class="projects">
 
-    </section>
+<div class="project-card">
 
-    <footer>
-        <p>© 2026 Navaneeth | Built with HTML & CSS</p>
-    </footer>
+<h3>Student Management System</h3>
+
+<p>Java OOP based console project with CRUD operations.</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Portfolio Website</h3>
+
+<p>Personal portfolio website using HTML, CSS and JavaScript.</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Document Scanner Web App</h3>
+
+<p>Capture webcam images and convert them into PDF.</p>
+
+<a href="#">GitHub</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates" class="section">
+
+<h2>Certificates</h2>
+
+<div class="cert-grid">
+
+<img src="certificates/caliber.jpg" onclick="openPopup(this.src)">
+<img src="certificates/nptel.jpg" onclick="openPopup(this.src)">
+<img src="certificates/googlecloud.jpg" onclick="openPopup(this.src)">
+<img src="certificates/cisco1.jpg" onclick="openPopup(this.src)">
+<img src="certificates/cisco2.jpg" onclick="openPopup(this.src)">
+<img src="certificates/designthinking.jpg" onclick="openPopup(this.src)">
+<img src="certificates/servicenow.jpg" onclick="openPopup(this.src)">
+<img src="certificates/yuvaai.jpg" onclick="openPopup(this.src)">
+
+</div>
+
+</section>
+
+<!-- POPUP -->
+
+<div id="popup">
+
+<span onclick="closePopup()">×</span>
+
+<img id="popup-img">
+
+</div>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<div class="contact-info">
+
+<p>
+📧 Email:
+<a href="mailto:navaneeth4002@gmail.com">
+navaneeth4002@gmail.com
+</a>
+</p>
+
+<p>
+💼 LinkedIn:
+<a href="https://www.linkedin.com/in/navaneeth-g-342065395/" target="_blank">
+linkedin.com/in/navaneeth-g-342065395
+</a>
+</p>
+
+<p>
+💻 GitHub:
+<a href="https://github.com/Navaneeth6374" target="_blank">
+github.com/Navaneeth6374
+</a>
+</p>
+
+</div>
+
+</section>
+<footer>
+
+© 2026 Navaneeth | Developer Portfolio
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
